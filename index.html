@@ -1,0 +1,383 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Richmond Yeboa | A Software Developer based in London
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Richmond Yeboah</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Software developer based in London.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Holiday booking system</h3>
+              <p>A desktop app- website - mobile app.
+                 The website and mobile app are aimed for the employees while
+                the desktop application is aimed for the admin. 
+                Several algorithms were implemented to obtain the most 
+                efficient system possible, for instance, a prioritisation algorithm based on holidays already 
+                taken was designed to ease the operation of managing holidays requests, also, requests that do 
+                not respect predefined constraints will be highlighted to the admin with the constraint broken,
+                and many more functionalities.
+              </p>
+              <ul class="work__list">
+                <li>Microsoft sql server</li>
+                <li>C#</li>
+                <li>ASP.NET</li>
+                <li>.Net</li>
+                <li>REST</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/EmployeeSystem" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <video src="./videos/employeeSysDemo.mp4" poster="/images/employeeSysPic.png" width="480" controls>
+              </video>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Regression Analysis</h3>
+              <p>
+                implementation of different data structure for the development of sophisticated and complex algorithms. 
+                The system allows to perform linear regression analysis on a set of data| Forecast house price given 
+                an independent var.(Es:House age)
+              </p>
+              <ul class="work__list">
+                <li>Java</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/RegressionAnalysis">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Gino Genius</h3>
+              <p>
+                Implementation of threads, timers and OOP. 
+                Side-scroll game an animated character 
+                has to avoid obstacles if collision is detected,
+                player will face a maths challenge, game-over if
+                answer is incorrect. Allows to view a leading 
+                board with the score and player.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>.NET</li>
+                <li>Access</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/SkipMaths">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Peer accesment system</h3>
+              <p>
+                Website that aims to facilitate tutors work in terms of evaluation in group work.
+                Allows each student of a particular group to upload evidence of each group members
+                work add an evaluation and discussion.
+              </p>
+              <ul class="work__list">
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/WebDeve">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 4" />
+              
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Academic notepad</h3>
+              <p>
+                Courses manipulation|Notes search 
+                |allows you to take notes in addition it allows to add a course to the list 
+                of courses and creating a folder for it. add a list of requirements for a specific 
+                coursework and giving each a deadline,and output deadlines as a text file.
+              </p>
+              <ul class="work__list">
+                <li>Java</li>
+                <li>.NET</li>
+                <li>Access</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/Notepad">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/studenNotepadPic.png" class="work__image" alt="Project 5" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Guide Me (IOS)</h3>
+              <p>
+                Implementation of Machine learning, Deep Learning, Object detection algorithm, 
+                Tenser-flow, ML-kit, natural language processing. 
+                The end product a mobile application, 
+                specifically for the blind and the visually impaired.
+                The mobile application will be use as an assistance to the blind, 
+                by helping the user in daily movements(move from location A to B) 
+                to do so it will leverage the YOLO(deep learning Object detection algorithm) 
+                and natural language processing.
+
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Swift</li>
+                <li>Google Collab</li>
+                <li>Mapkit</li>
+                <li>YOLO (Object detection algorithm)</li>
+                <li>Keras</li>
+
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/IosApp/blob/master/README.md">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/guideMePic.png" class="work__image" alt="Project 5" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Train Dashboard</h3>
+              <p>
+                Developed using extreme programming methodology, Test-Driven-Development|library creation 
+                | design patterns |development of software components|Advanced programming techniques such as
+                 threads,reflection and generic classes,
+
+              </p>
+              <ul class="work__list">
+                <li>Java</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Richmond97/IosApp/blob/master/README.md">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 5" />
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Energetic and passionate University student graduated in Computer Science at the University of Greenwich,
+               with a first class degree classification. Aiming to use my knowledge of programming languages, System development,
+                Computer system Architecture, Algorithms-modelling skills for graduate/junior roles starting in 2020/2021 in the field of software engineering,
+                and software development.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/Richmond.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a junior software developer ?  or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:yeboah.richmond97@gmail.com" class="btn">yeboah.richmond97@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Richmond97" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/richmond-yeboah97/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
